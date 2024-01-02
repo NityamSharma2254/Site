@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #0B0A03;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    background-color: #D0CA9C;
+}
+
+#yesButton {
+    position: relative;
+    margin-right: 150px;
+    background-color: #29407C;
+}
+
+.header_text {
+    font-family: 'Noto+Sans';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 25px ;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 12px; /* Add this line for curved border */
+    overflow: hidden; /* This ensures the border-radius is applied */
+}
+
+.heading {
+    text-align: left;
+}
